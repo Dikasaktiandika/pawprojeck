@@ -1,0 +1,1 @@
+Sebelum import database,buat database terlebih dahulu dgn nama paw

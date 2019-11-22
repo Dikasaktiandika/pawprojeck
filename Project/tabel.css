@@ -1,0 +1,52 @@
+table {
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+table caption {
+	font-size: 1.5em;
+	margin: .25em 0 .75em;
+}
+table tr {
+	border:1px solid white;
+	padding: .35em;
+}
+table th,
+table td {
+	padding: .625em;
+	text-align: center;
+	border:1px solid white;
+}
+table td img {
+	text-align: center;
+}
+@media screen and (max-width: 100%) {
+	table {
+		border: 0;
+	}
+	table caption {
+		font-size: 1.3em;
+	}
+	table thead {
+		display: none;
+	}
+	table tr {
+		display: block;
+		margin-bottom: .725em;
+	}
+	table td {
+		display: block;
+		font-size: .8em;
+		text-align: right;
+	}
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	table td:last-child {
+		border-bottom: 0;
+	}
+}

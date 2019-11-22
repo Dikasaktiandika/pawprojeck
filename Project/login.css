@@ -1,0 +1,37 @@
+body{
+	background-color:#d5f0f3;
+}
+.tulisan{
+	text-align:center;
+	text-transform:uppercase;
+}
+.kotaklogin{
+	width:350px;
+	background:white;
+	margin:80px auto;
+	padding:30px 20px;
+}
+label{
+	font-size:11pt;
+}
+.formlogin{
+	box-sizing:border-box;
+	width:100%;
+	padding:10px;
+	font-size:11pt;
+	margin-bottom:20px;
+}
+.tombolmasuk{
+	background:#46de4b;
+	color:white;
+	font-size:11pt;
+	width:100%;
+	border:none;
+	border-radius:3px;
+	padding:10px 20px;
+}
+.link{
+	color:#232323;
+	text-decoration:none;
+	font-size:10pt;
+}
